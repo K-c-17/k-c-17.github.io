@@ -6,4 +6,4 @@ Personal Portfolio website highlighting:
 
 **Do check it out and please share your feedback!!**
 
-_Work in progress......._
+_The website is not complete and work is in progress......._
