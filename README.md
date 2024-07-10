@@ -5,7 +5,7 @@ Personal Portfolio website highlighting:
 - Project
 
 **Website:** [https://k-c-17.github.io/](https://k-c-17.github.io/)
-<br>Built with **HTML, CSS and JS** and deployed with **GitHub Pages**
+<br><br>Built with **HTML, CSS and JS** and deployed with **GitHub Pages**
 
 &rarr; <u>**Website snippet:**</u>
 <br><br>
