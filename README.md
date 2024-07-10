@@ -4,8 +4,8 @@ Personal Portfolio website highlighting:
 - Educational Background
 - Project
 
-**Website:** [Kshitij's Website](https://k-c-17.github.io/)
-Built with **HTML, CSS and JS** and deployed with **GitHub Pages**
+**Website:** [https://k-c-17.github.io/](https://k-c-17.github.io/)
+<br>Built with **HTML, CSS and JS** and deployed with **GitHub Pages**
 
 &rarr; <u>**Website snippet:**</u>
 <br><br>
