@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Kshitij's Portfolio </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=dev`ice-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="freehtml5.co" />
@@ -44,6 +44,7 @@
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/data-animation.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -65,9 +66,10 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/user-3.jpeg);"></div>
+							<div class="profile-thumb" style="background-image: url(images/user-3.jpeg);">
+							</div>
 							<h1><span>kshitij chauhan</span></h1>
-							<h3><span>Data Engineer | Data Analytics & Engineering</span></h3>
+							<h3><span class="typewriter"></span></h3>
 							<p>
 								<ul class="fh5co-social-icons">
 									<li><a href="https://www.linkedin.com/in/kshitij-chauhan-de/"><i class="icon-linkedin2"></i></a></li>
@@ -94,10 +96,10 @@
 				<div class="col-md-4">
 					<ul class="info">
 						<li><span class="first-block">Full Name:</span><span class="second-block">Kshitij Chauhan</span></li>
-						<li><span class="first-block">Phone:</span><span class="second-block">+ 1-2019189300</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">(201) 918-9300</span></li>
 						<li><span class="first-block">Email:</span><span class="second-block">kshitij03071997@gmail.com</span></li>
-						<li><span class="first-block">Website:</span><span class="second-block"><a href="https://k-c-17.github.io/" style="text-decoration: underline; font-size: smaller;">k-c-17.github.io</a></span></li>
-						<li><span class="first-block">Address:</span><span class="second-block">1004 Riverton Dr, West Lafayette, IN 47906, USA</span></li>
+						<!--<li><span class="first-block">Website:</span><span class="second-block"><a href="https://k-c-17.github.io/" style="text-decoration: underline; font-size: smaller;">k-c-17.github.io</a></span></li> -->
+						<!--<li><span class="first-block">Address:</span><span class="second-block">1004 Riverton Dr, West Lafayette, IN 47906, USA</span></li> -->
 					</ul>
 				</div>
 				<div class="col-md-8">
@@ -121,7 +123,7 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>My Resume <a href="docs/Kshitij_DE_JH.pdf" download><i class="icon-download" style="font-weight: bold;"></i></a></h2>
+					<h2>My Resume <a href="#" onclick="openResumePreview(); return false;" class="download-icon"><i class="icon-download"></i></a></h2>
 				</div>
 			</div>
 			<div class="row">
@@ -134,7 +136,7 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading" style="text-align: left; margin-bottom: 3px;">
-									<h3 class="timeline-title">Data Engineer</h3>
+									<h3 class="timeline-title">Senior Data Engineer</h3>
 									<span class="company">American Express   Jun'21 - Jul'24</span>
 								</div>
 								<div class="timeline-body">
@@ -150,7 +152,7 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading" style="text-align: left; margin-bottom: 3px;">
-									<h3 class="timeline-title">Senior Business Analyst</h3>
+									<h3 class="timeline-title">Data Engineer</h3>
 									<span class="company">EXL Service   Sept'19 - Jun'21</span>
 								</div>
 								<div class="timeline-body">
@@ -175,7 +177,7 @@
 									<span class="company">Purdue University, USA - Aug 2025</span>
 								</div>
 								<div class="timeline-body">
-									<p>Recipient of Merit based scholarship awarded to Top 10% of Cohort</p>
+									<p>Beta Gamma Sigma Honoree – Awarded to the top 20% of business students at Purdue University for outstanding academic achievement</p>
 								</div>
 							</div>
 						</li>
@@ -203,51 +205,100 @@
 						<h2>My Certifications</h2>
 					</div>
 				</div>
+				
 				<!--Certificate 1-->
 				<div class="row">
 					<div class="col-md-4 text-center">
 						<div class="feature-left">
-							<a href="https://www.udemy.com/certificate/UC-1338e7f6-5c7e-44a2-ba8f-590cac8d71c1/" class="icon">
-								<i class="icon-briefcase"></i>
+							<a href="https://www.credly.com/badges/86837e66-d524-4793-ae7d-56e8bf5a5a6b/linked_in_profile" class="icon">
+								<img src="images/aws-logo.png" alt="AWS Certified Cloud Practitioner" class="certification-icon">
 							</a>
 							<div class="feature-copy">
-								<a href="https://www.udemy.com/certificate/UC-1338e7f6-5c7e-44a2-ba8f-590cac8d71c1/">
-									<h3> Big Data (Hadoop)</h3>
+								<a href="https://www.credly.com/badges/86837e66-d524-4793-ae7d-56e8bf5a5a6b/linked_in_profile">
+									<h3>AWS Certified Cloud Practitioner</h3>
 								</a>
-								<p>Includes Hadoop, Spark, Hive, HBase, Kafka, and over 25 data engineering technologies.</p>
+								<p>Includes foundational knowledge of AWS Cloud concepts, services, and terminology</p>
 							</div>
 						</div>
 					</div>
-					
-					<!--Certificate 2-->
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<a href="https://www.udemy.com/certificate/UC-14f0ba4d-64d0-48d9-b510-fc96a96e4c7e/" class="icon">
-									<i class="icon-briefcase"></i>
-								</a>
-								<div class="feature-copy">
-									<a href="https://www.udemy.com/certificate/UC-14f0ba4d-64d0-48d9-b510-fc96a96e4c7e/">
-										<h3> Apache Spark (PySpark)</h3>
-									</a>
-									<p>Includes the Apache Spark3 API with special focus on Data Frames and Structures Streaming.</p>
-								</div>
-							</div>
-						</div>
 
-					<!--Certificate 3-->
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<a href="https://courses.edx.org/certificates/52065528e7894a3c9a3430b0bee7e0a1?_gl=1*1uay6jg*_gcl_au*NzM3MjE4ODEyLjE3MjA2MDAwMTQ.*_ga*MTA5NzUzNzM3Ni4xNzIwNjAwMDE0*_ga_D3KS4KMDT0*MTcyMDYwMDAxNy4xLjEuMTcyMDYwMDAyNy41MC4wLjA." class="icon">
-									<i class="icon-briefcase"></i>
+				<!--Certificate 2-->
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<a href="https://learn.microsoft.com/en-us/users/kshitijchauhan-3952/credentials/certification/azure-fundamentals?tab=tab-learning-paths" class="icon">
+								<img src="images/azure-logo.png" alt="Microsoft Azure Fundamentals" class="certification-icon">
+							</a>
+							<div class="feature-copy">
+								<a href="https://learn.microsoft.com/en-us/users/kshitijchauhan-3952/credentials/certification/azure-fundamentals?tab=tab-learning-paths">
+									<h3> Microsoft Certified: Azure Fundamentals</h3>
 								</a>
-								<div class="feature-copy">
-									<a href="https://courses.edx.org/certificates/52065528e7894a3c9a3430b0bee7e0a1?_gl=1*1uay6jg*_gcl_au*NzM3MjE4ODEyLjE3MjA2MDAwMTQ.*_ga*MTA5NzUzNzM3Ni4xNzIwNjAwMDE0*_ga_D3KS4KMDT0*MTcyMDYwMDAxNy4xLjEuMTcyMDYwMDAyNy41MC4wLjA.">
-										<h3> Python Programming</h3>
-									</a>
-									<p>Includes Python programming basics, Object Oriented Paradigms and Algorithms.</p>
-								</div>
+								<p>Demonstrate foundational knowledge of cloud concepts, core Azure services, plus Azure management and governance features and tools.</p>
 							</div>
 						</div>
+					</div>
+
+				<!--Certificate 3-->
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<a href="https://www.credly.com/badges/8cd44bf2-e992-4e26-aab1-6930d9d5ceac/linked_in_profile" class="icon">
+								<img src="images/azure-logo.png" alt="Microsoft Azure AI Fundamentals" class="certification-icon">
+							</a>
+							<div class="feature-copy">
+								<a href="https://www.credly.com/badges/8cd44bf2-e992-4e26-aab1-6930d9d5ceac/linked_in_profile">
+									<h3> Microsoft Certified: Azure AI Fundamentals</h3>
+								</a>
+								<p>Demonstrate fundamental AI concepts related to the development of software and services of Microsoft Azure to create AI solutions.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+					
+				<!--Certificate 4-->
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<a href="https://www.udemy.com/certificate/UC-14f0ba4d-64d0-48d9-b510-fc96a96e4c7e/" class="icon">
+								<img src="images/udemy-logo.png" alt="Udemy Apache Spark" class="certification-icon">
+							</a>
+							<div class="feature-copy">
+								<a href="https://www.udemy.com/certificate/UC-14f0ba4d-64d0-48d9-b510-fc96a96e4c7e/">
+									<h3> Apache Spark (PySpark)</h3>
+								</a>
+								<p>Includes the Apache Spark3 API with special focus on Data Frames and Structures Streaming</p>
+							</div>
+						</div>
+					</div>
+
+					<!--Certificate 5-->
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<a href="https://courses.edx.org/certificates/52065528e7894a3c9a3430b0bee7e0a1?_gl=1*1uay6jg*_gcl_au*NzM3MjE4ODEyLjE3MjA2MDAwMTQ.*_ga*MTA5NzUzNzM3Ni4xNzIwNjAwMDE0*_ga_D3KS4KMDT0*MTcyMDYwMDAxNy4xLjEuMTcyMDYwMDAyNy41MC4w.LjA." class="icon">
+								<img src="images/edx-logo.png" alt="edX Python Programming" class="certification-icon">
+							</a>
+							<div class="feature-copy">
+								<a href="https://courses.edx.org/certificates/52065528e7894a3c9a3430b0bee7e0a1?_gl=1*1uay6jg*_gcl_au*NzM3MjE4ODEyLjE3MjA2MDAwMTQ.*_ga*MTA5NzUzNzM3Ni4xNzIwNjAwMDE0*_ga_D3KS4KMDT0*MTcyMDYwMDAxNy4xLjEuMTcyMDYwMDAyNy41MC4w.LjA.">
+									<h3> Python Programming</h3>
+								</a>
+								<p>Includes Python programming basics, Object Oriented Paradigms and Algorithms</p>
+							</div>
+						</div>
+					</div>
+
+					<!--Certificate 6-->
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<a href="https://courses.edx.org/certificates/e9247e69d40b472296873f3aea1e6c71" class="icon">
+								<img src="images/edx-logo.png" alt="edX Python for Data Science" class="certification-icon">
+							</a>
+							<div class="feature-copy">
+								<a href="https://courses.edx.org/certificates/e9247e69d40b472296873f3aea1e6c71">
+									<h3> Python for Data Science</h3>
+								</a>
+								<p>Covers Python fundamentals and essential data science techniques to analyze and visualize data effectively.</p>
+							</div>
+						</div>
+					</div>
+				</div>
 
 					<!--Certificate 4
 						<div class="col-md-4 text-center">
@@ -276,74 +327,236 @@
 					<h2>Skills</h2>
 				</div>
 			</div>
-			<div class="row row-pb-md">
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="95"><span><strong>Hive</strong>95%</span></div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="skill-category">
+						<h3><i class="fas fa-code"></i> Core Languages</h3>
+						<div class="skill-content-wrapper">
+							<div class="skill-item">
+								<span class="skill-name">Python <small>(NumPy, Pandas)</small></span>
+								<div class="skill-bar">
+									<div class="skill-level expert">
+										<div class="skill-dots"></div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="93"><span><strong>Apache Spark</strong>90%</span></div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>Git</strong>90%</span></div>
+				</div>
+							<div class="skill-item">
+								<span class="skill-name">R <small>(Data Analysis)</small></span>
+								<div class="skill-bar">
+									<div class="skill-level advanced">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill-item">
+								<span class="skill-name">Scala</span>
+								<div class="skill-bar">
+									<div class="skill-level intermediate">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill-item">
+								<span class="skill-name">Shell Scripting</span>
+								<div class="skill-bar">
+									<div class="skill-level advanced">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+						</div>
 				</div>
 
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="89"><span><strong>Hadoop</strong>80%</span></div>
+					<div class="skill-category">
+						<h3><i class="fas fa-tools"></i> Data Processing</h3>
+						<div class="skill-content-wrapper">
+							<div class="skill-item">
+								<span class="skill-name">PySpark</span>
+								<div class="skill-bar">
+									<div class="skill-level expert">
+										<div class="skill-dots"></div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="85"><span><strong>Tableau</strong>95%</span></div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>PowerBI</strong>90%</span></div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="85"><span><strong>Google Cloud</strong>80%</span></div>
+							<div class="skill-item">
+								<span class="skill-name">Pandas</span>
+								<div class="skill-bar">
+									<div class="skill-level expert">
+										<div class="skill-dots"></div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>AWS </strong>70%</span></div>
+				</div>
+				</div>
+							<div class="skill-item">
+								<span class="skill-name">NumPy</span>
+								<div class="skill-bar">
+									<div class="skill-level expert">
+										<div class="skill-dots"></div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="progress-wrap">
-						<h3><span class="name-left">MySQL/Postgres/T-SQL/HiveQL</span><span class="value-right">95%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+							<div class="skill-item">
+								<span class="skill-name">Scikit-learn</span>
+								<div class="skill-bar">
+									<div class="skill-level advanced">
+										<div class="skill-dots"></div>
+						</div>
+					</div>
 						  </div>
 						</div>
 					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Python</span><span class="value-right">90%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
 						  </div>
+
+				<div class="col-md-4">
+					<div class="skill-category">
+						<h3><i class="fas fa-database"></i> Databases</h3>
+						<div class="skill-content-wrapper">
+							<div class="skill-item">
+								<span class="skill-name">AWS Redshift</span>
+								<div class="skill-bar">
+									<div class="skill-level expert">
+										<div class="skill-dots"></div>
 						</div>
 					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Shell Script</span><span class="value-right">50%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
 						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Data Structures</span><span class="value-right">80%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-						  </div>
+							<div class="skill-item">
+								<span class="skill-name">MS SQL Server</span>
+								<div class="skill-bar">
+									<div class="skill-level expert">
+										<div class="skill-dots"></div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="progress-wrap">
-						<h3><span class="name-left">Algorithms</span><span class="value-right">80%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+							<div class="skill-item">
+								<span class="skill-name">Redis Cache</span>
+								<div class="skill-bar">
+									<div class="skill-level advanced">
+										<div class="skill-dots"></div>
+						  </div>
+						</div>
+					</div>
+							<div class="skill-item">
+								<span class="skill-name">Apache Hive</span>
+								<div class="skill-bar">
+									<div class="skill-level expert">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill-item">
+								<span class="skill-name">BigQuery</span>
+								<div class="skill-bar">
+									<div class="skill-level advanced">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="skill-category">
+						<h3><i class="fas fa-cloud"></i> Cloud & Infrastructure</h3>
+						<div class="skill-content-wrapper">
+							<div class="skill-item">
+								<span class="skill-name">AWS <small>(S3, EC2, IAM)</small></span>
+								<div class="skill-bar">
+									<div class="skill-level expert">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill-item">
+								<span class="skill-name">Azure <small>(Functions, Databricks)</small></span>
+								<div class="skill-bar">
+									<div class="skill-level advanced">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill-item">
+								<span class="skill-name">GCP <small>(BigQuery)</small></span>
+								<div class="skill-bar">
+									<div class="skill-level intermediate">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill-item">
+								<span class="skill-name">Hadoop <small>(On-Prem)</small></span>
+								<div class="skill-bar">
+									<div class="skill-level expert">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="skill-category">
+						<h3><i class="fas fa-tools"></i> ETL & Data Tools</h3>
+						<div class="skill-content-wrapper">
+							<div class="skill-item">
+								<span class="skill-name">Databricks</span>
+								<div class="skill-bar">
+									<div class="skill-level expert">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill-item">
+								<span class="skill-name">AWS Glue</span>
+								<div class="skill-bar">
+									<div class="skill-level advanced">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill-item">
+								<span class="skill-name">DBT</span>
+								<div class="skill-bar">
+									<div class="skill-level advanced">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill-item">
+								<span class="skill-name">SSIS</span>
+								<div class="skill-bar">
+									<div class="skill-level advanced">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="skill-category">
+						<h3><i class="fas fa-chart-line"></i> Visualization & BI</h3>
+						<div class="skill-content-wrapper">
+							<div class="skill-item">
+								<span class="skill-name">Tableau</span>
+								<div class="skill-bar">
+									<div class="skill-level expert">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill-item">
+								<span class="skill-name">PowerBI</span>
+								<div class="skill-bar">
+									<div class="skill-level expert">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill-item">
+								<span class="skill-name">AWS QuickSight</span>
+								<div class="skill-bar">
+									<div class="skill-level advanced">
+										<div class="skill-dots"></div>
+									</div>
+								</div>
 						  </div>
 						</div>
 					</div>
@@ -360,72 +573,52 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://github.com/K-c-17/Amazon-Audible-Bot" class="work" style="background-image: url(images/portfolio-1.png);">
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/portfolio-5.jpg);">
+						<div class="desc">
+							<h3>LLM-Powered AI Sales Agents</h3>
+							<span>An intelligent sales agent powered by Large Language Models, featuring dynamic conversation handling and product recommendations.</span>
+							<div class="project-links">
+								<a href="https://github.com/K-c-17/pg-sales-agent/tree/sample_agent_kshitij" class="btn btn-primary btn-sm"><i class="icon-github2"></i> View Code</a>
+								<a href="https://www.youtube.com/watch?v=IkefBKis3eY&list=LL&index=11" class="btn btn-primary btn-sm"><i class="icon-play3"></i> Watch Demo</a>
+						</div>
+				</div>
+						</div>
+				</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/portfolio-1.png);">
 						<div class="desc">
 							<h3>Amazon Audible Bot</h3>
 							<span>A webscraping bot implemented using Selenium to extract data from Audible website</span>
 						</div>
-					</a>
 				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://public.tableau.com/views/VintageArtAnalysis_17229121550680/VintageArtStoryBoard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" class="work" style="background-image: url(images/portfolio-2.jpg);">
+						</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/portfolio-2.jpg);">
 						<div class="desc">
 							<h3>Vintage Art Analysis</h3>
-							<span>A Tableau report analyzing the business model of a famous Vintage Art sellers </span>
+							<span>A Tableau report analyzing the business model of a famous Vintage Art sellers</span>
 						</div>
-					</a>
 				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+						</div>
+				</div>
+			<div class="row">
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/portfolio-3.jpg);">
 						<div class="desc">
-							<h3>TBD</h3>
-							<span>TBD</span>
+							<h3>GAP Case Analysis</h3>
+							<span>A comprehensive analysis of GAP Inc's transition to data-driven decision making, using web scraping and sentiment analysis</span>
 						</div>
-					</a>
 				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">
+				</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/portfolio-4.jpg);">
 						<div class="desc">
-							<h3>TBD</h3>
-							<span>TBD</span>
+							<h3>LA Crime Analysis</h3>
+							<span>A visual analytics project exploring Los Angeles crime patterns using Tableau, analyzing temporal trends and patterns</span>
 						</div>
-					</a>
 				</div>
-<!--
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Website</span>
-						</div>
-					</a>
 				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Brading</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-				</div>
--->
 			</div>
 		</div>
 	</div>
@@ -501,50 +694,382 @@
 		</div>
 	</div>
 
-	<div id="fh5co-consult">
+	<div id="fh5co-consult" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
 		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
-			<div class="overlay"></div>
+						<div class="overlay-contact"></div>
+						<div class="video-content">
+							<div class="video-text">
+								<i class="fas fa-envelope-open-text"></i>
+								<h3>Let's Connect!</h3>
+								<p>Always excited to hear about new opportunities and ideas.</p>
 		</div>
-		<div class="choose animate-box">
-			<h2>Contact</h2>
-			<form action="mailto:kshitij03071997@gmail.com">
-				<div class="row form-group">
+					</div>
+				</div>
+				</div>
 					<div class="col-md-6">
-						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+					<div class="contact-form-wrapper">
+						<h2><i class="fas fa-paper-plane"></i> Contact Me</h2>
+						<p class="contact-intro">Need to get in touch? Fill out the form with your inquiry or email me directly at kshitij03071997@gmail.com</p>
+						
+						<form id="contactForm" class="modern-contact-form">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<div class="input-with-icon">
+											<i class="fas fa-user"></i>
+											<input type="text" id="fname" name="fname" class="form-control" placeholder="First name*" required>
 					</div>
 				</div>
-				<div class="row form-group">
-					<div class="col-md-6">
-						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+					</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<div class="input-with-icon">
+											<i class="fas fa-user"></i>
+											<input type="text" id="lname" name="lname" class="form-control" placeholder="Last name" >
+				</div>
+									</div>
 					</div>
 				</div>
 
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input type="text" id="email" class="form-control" placeholder="Your email address">
+							<div class="form-group">
+								<div class="input-with-icon">
+									<i class="fas fa-envelope"></i>
+									<input type="email" id="email" name="email" class="form-control" placeholder="Email*" required>
 					</div>
 				</div>
 
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
-					</div>
-				</div>
 				<div class="form-group">
-					<input type="submit" value="Send Message" class="btn btn-primary">
+								<div class="input-with-icon">
+									<i class="fas fa-comment-alt"></i>
+									<textarea name="message" id="message" class="form-control" rows="5" placeholder="What can we help you with?*" required></textarea>
+								</div>
 				</div>
 
+							<div class="form-group text-right">
+								<button type="submit" class="btn btn-primary">
+									<i class="fas fa-paper-plane"></i> Send Message
+								</button>
+							</div>
 			</form>	
+
+						<script>
+							document.getElementById('contactForm').addEventListener('submit', function(e) {
+								e.preventDefault();
+								
+								const fname = document.getElementById('fname').value;
+								const lname = document.getElementById('lname').value;
+								const email = document.getElementById('email').value;
+								const message = document.getElementById('message').value;
+								
+								const subject = 'Contact Form Submission from Portfolio';
+								const body = `Name: ${fname} ${lname}
+Email: ${email}
+
+Message:
+${message}`;
+								
+								const mailtoLink = `mailto:kshitij03071997@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+								window.location.href = mailtoLink;
+							});
+						</script>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
+	<style>
+		#fh5co-started {
+			background: linear-gradient(135deg, #2F3C4F 0%, #FF9000 100%);
+			position: relative;
+			overflow: hidden;
+		}
 
+		#fh5co-started:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: radial-gradient(circle at 30% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 60%);
+			z-index: 1;
+		}
+
+		#fh5co-started .overlay {
+			background: rgba(47, 60, 79, 0.4);
+			z-index: 2;
+		}
+
+		#fh5co-started .container {
+			position: relative;
+			z-index: 3;
+		}
+
+		#fh5co-started .btn-default {
+			background: rgba(255, 255, 255, 0.9);
+			border: none;
+			color: #FF9000;
+			font-weight: 600;
+			transition: all 0.3s ease;
+		}
+
+		#fh5co-started .btn-default:hover {
+			background: #fff;
+			transform: translateY(-2px);
+			box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+		}
+
+		#fh5co-started h2 {
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+		}
+
+		#fh5co-started p {
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+		}
+
+		#fh5co-consult {
+			position: relative;
+			background: #f8f9fa;
+			padding: 7em 0;
+			clear: both;
+		}
+
+		.video.fh5co-video {
+			height: 400px;
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 8px;
+			overflow: hidden;
+			margin-bottom: 30px;
+		}
+
+		.video-content {
+			position: relative;
+			z-index: 2;
+			text-align: center;
+			padding: 30px;
+			color: #fff;
+		}
+
+		.video-content i {
+			font-size: 48px;
+			margin-bottom: 20px;
+			color: #FF9000;
+		}
+
+		.video-content h3 {
+			color: #fff;
+			font-size: 32px;
+			margin-bottom: 15px;
+		}
+
+		.video-content p {
+			color: rgba(255, 255, 255, 0.8);
+		}
+
+		.contact-form-wrapper {
+			padding: 40px;
+			background: #fff;
+			border-radius: 8px;
+			box-shadow: 0 0 20px rgba(0,0,0,0.05);
+		}
+
+		.contact-form-wrapper h2 {
+			font-size: 32px;
+			margin-bottom: 20px;
+			color: #333;
+			display: flex;
+			align-items: center;
+			gap: 15px;
+		}
+
+		.contact-form-wrapper h2 i {
+			color: #FF9000;
+		}
+
+		.contact-intro {
+			color: #666;
+			margin-bottom: 30px;
+			font-size: 16px;
+			line-height: 1.6;
+		}
+
+		.input-with-icon {
+			position: relative;
+		}
+
+		.input-with-icon i {
+			position: absolute;
+			left: 15px;
+			top: 50%;
+			transform: translateY(-50%);
+			color: #FF9000;
+			opacity: 0.8;
+		}
+
+		.input-with-icon textarea ~ i {
+			top: 25px;
+			transform: none;
+		}
+
+		.modern-contact-form .form-control {
+			padding-left: 45px;
+			border: 1px solid #e1e1e1;
+			border-radius: 5px;
+			height: auto;
+			font-size: 15px;
+			margin-bottom: 20px;
+			transition: all 0.3s ease;
+			background: #f8f9fa;
+		}
+
+		.modern-contact-form .form-control:focus {
+			border-color: #FF9000;
+			box-shadow: 0 0 0 2px rgba(255,144,0,0.1);
+			background: #fff;
+		}
+
+		.modern-contact-form textarea.form-control {
+			min-height: 120px;
+			resize: vertical;
+			padding-top: 15px;
+		}
+
+		.modern-contact-form .btn-primary {
+			background: #FF9000;
+			border: none;
+			padding: 12px 30px;
+			font-size: 16px;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: all 0.3s ease;
+			display: inline-flex;
+			align-items: center;
+			gap: 10px;
+		}
+
+		.modern-contact-form .btn-primary:hover {
+			background: #ff9b1a;
+			transform: translateY(-2px);
+			box-shadow: 0 5px 15px rgba(255,144,0,0.2);
+		}
+
+		.overlay-contact {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: rgba(47, 60, 79, 0.8);
+			z-index: 1;
+		}
+
+		@media (max-width: 768px) {
+			.contact-form-wrapper {
+				padding: 30px;
+			}
+			
+			.video.fh5co-video {
+				height: 300px;
+			}
+
+			#fh5co-consult {
+				padding: 4em 0;
+			}
+		}
+
+		/* Skills Section Scrollable Styling */
+		.skill-category {
+			background: #fff;
+			border-radius: 8px;
+			padding: 20px;
+			margin-bottom: 30px;
+			box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+			height: 400px;
+			display: flex;
+			flex-direction: column;
+			transition: all 0.3s ease;
+		}
+
+		.skill-category:hover {
+			box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+			transform: translateY(-2px);
+		}
+
+		.skill-category h3 {
+			position: sticky;
+			top: 0;
+			background: #fff;
+			padding: 10px 0;
+			margin-top: 0;
+			margin-bottom: 20px;
+			border-bottom: 2px solid #f0f0f0;
+			color: #333;
+			font-size: 1.2em;
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			z-index: 1;
+		}
+
+		.skill-category h3 i {
+			color: #FF9000;
+		}
+
+		.skill-content-wrapper {
+			flex: 1;
+			overflow-y: auto;
+			padding-right: 10px;
+			margin-right: -10px;
+		}
+
+		/* Custom Scrollbar Styling */
+		.skill-content-wrapper::-webkit-scrollbar {
+			width: 6px;
+		}
+
+		.skill-content-wrapper::-webkit-scrollbar-track {
+			background: #f1f1f1;
+			border-radius: 3px;
+		}
+
+		.skill-content-wrapper::-webkit-scrollbar-thumb {
+			background: #FF9000;
+			border-radius: 3px;
+			transition: all 0.3s ease;
+		}
+
+		.skill-content-wrapper::-webkit-scrollbar-thumb:hover {
+			background: #e68200;
+		}
+
+		/* Fade effect for scrollable content */
+		.skill-category::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 40px;
+			background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
+			pointer-events: none;
+			border-bottom-left-radius: 8px;
+			border-bottom-right-radius: 8px;
+		}
+
+		/* Responsive adjustments */
+		@media (max-width: 768px) {
+			.skill-category {
+				height: 350px;
+			}
+		}
+	</style>
 	
 	<div id="fh5co-footer">
 		<div class="container">
@@ -578,6 +1103,272 @@
 	
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="js/data-animation.js"></script>
+
+	<!-- Resume Preview Modal -->
+	<div id="resumeModal" class="modal">
+		<div class="modal-content">
+			<div class="modal-header">
+				<span class="close-modal">&times;</span>
+				<h2>Resume Preview</h2>
+			</div>
+			<div class="modal-body">
+				<iframe id="resumePreview" width="100%" height="600px"></iframe>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-primary" onclick="downloadResume()">
+					<i class="icon-download"></i> Download Resume
+				</button>
+				<button class="btn btn-default" onclick="closeModal()">
+					Close
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<style>
+		/* Modal Styles */
+		.modal {
+			display: none;
+			position: fixed;
+			z-index: 1000;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0,0,0,0.6);
+			opacity: 0;
+			transition: opacity 0.3s ease;
+		}
+
+		.modal.show {
+			opacity: 1;
+		}
+
+		.modal-content {
+			position: relative;
+			background-color: #fefefe;
+			margin: 2% auto;
+			padding: 0;
+			border-radius: 8px;
+			width: 80%;
+			max-width: 900px;
+			box-shadow: 0 4px 25px rgba(0,0,0,0.2);
+			transform: translateY(-20px);
+			transition: transform 0.3s ease;
+		}
+
+		.modal.show .modal-content {
+			transform: translateY(0);
+		}
+
+		.modal-header {
+			padding: 15px 20px;
+			border-bottom: 1px solid #e5e5e5;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.modal-header h2 {
+			margin: 0;
+			color: #333;
+			font-size: 1.5em;
+		}
+
+		.close-modal {
+			color: #aaa;
+			font-size: 28px;
+			font-weight: bold;
+			cursor: pointer;
+			transition: color 0.3s ease;
+		}
+
+		.close-modal:hover {
+			color: #FF9000;
+		}
+
+		.modal-body {
+			padding: 20px;
+			background-color: #f8f9fa;
+			border-radius: 0 0 8px 8px;
+		}
+
+		.modal-footer {
+			padding: 15px 20px;
+			border-top: 1px solid #e5e5e5;
+			text-align: right;
+			display: flex;
+			justify-content: flex-end;
+			gap: 10px;
+		}
+
+		#resumePreview {
+			border: none;
+			border-radius: 4px;
+			background-color: #fff;
+		}
+
+		/* Button Styles */
+		.modal-footer .btn {
+			padding: 8px 20px;
+			border-radius: 4px;
+			transition: all 0.3s ease;
+		}
+
+		.modal-footer .btn-primary {
+			background-color: #FF9000;
+			border: none;
+			color: white;
+		}
+
+		.modal-footer .btn-primary:hover {
+			background-color: #e68200;
+			transform: translateY(-2px);
+		}
+
+		.modal-footer .btn-default {
+			background-color: #f8f9fa;
+			border: 1px solid #ddd;
+			color: #333;
+		}
+
+		.modal-footer .btn-default:hover {
+			background-color: #e9ecef;
+		}
+
+		@media (max-width: 768px) {
+			.modal-content {
+				width: 95%;
+				margin: 5% auto;
+			}
+
+			#resumePreview {
+				height: 400px;
+			}
+		}
+	</style>
+
+	<script>
+		// Resume preview and download functionality
+		function openResumePreview() {
+			const modal = document.getElementById('resumeModal');
+			const preview = document.getElementById('resumePreview');
+			preview.src = 'docs/Kshitij_DE_JH.pdf';
+			modal.style.display = 'block';
+			setTimeout(() => modal.classList.add('show'), 10);
+
+			// Add click event for close button
+			document.querySelector('.close-modal').addEventListener('click', closeModal);
+		}
+
+		function closeModal() {
+			const modal = document.getElementById('resumeModal');
+			modal.classList.remove('show');
+			setTimeout(() => {
+				modal.style.display = 'none';
+				document.getElementById('resumePreview').src = '';
+			}, 300);
+		}
+
+		function downloadResume() {
+			const link = document.createElement('a');
+			link.href = 'docs/Kshitij_DE_JH.pdf';
+			link.download = 'Kshitij_Resume.pdf';
+			document.body.appendChild(link);
+			link.click();
+			document.body.removeChild(link);
+		}
+
+		// Close modal when clicking outside
+		window.onclick = function(event) {
+			const modal = document.getElementById('resumeModal');
+			if (event.target == modal) {
+				closeModal();
+			}
+		}
+
+		// Close modal with escape key
+		document.addEventListener('keydown', function(event) {
+			if (event.key === 'Escape') {
+				closeModal();
+			}
+		});
+
+		// Initialize close button event listener when the document loads
+		document.addEventListener('DOMContentLoaded', function() {
+			document.querySelector('.close-modal').addEventListener('click', closeModal);
+		});
+	</script>
+
+	<style>
+		.col-padding {
+			padding: 2em;
+		}
+		.work {
+			height: 300px;
+			overflow: hidden;
+			margin-bottom: 0;
+			position: relative;
+			border-radius: 8px;
+			box-shadow: 0 0 20px rgba(0,0,0,0.1);
+			background-size: cover;
+			background-position: center;
+		}
+		.work .desc {
+			background: rgba(0, 0, 0, 0.8);
+			padding: 20px;
+			position: absolute;
+			bottom: -100%;
+			left: 0;
+			right: 0;
+			transition: all 0.3s ease;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		.work:hover .desc {
+			bottom: 0;
+		}
+		.work .desc h3 {
+			color: #fff;
+			margin-bottom: 10px;
+			font-size: 20px;
+		}
+		.work .desc span {
+			color: rgba(255, 255, 255, 0.7);
+			display: block;
+			margin-bottom: 15px;
+			font-size: 14px;
+		}
+		.project-links {
+			margin-top: 10px;
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+		}
+		.project-links .btn {
+			background: #FF9000;
+			border: none;
+			color: white;
+			padding: 5px 15px;
+			border-radius: 4px;
+			transition: all 0.3s ease;
+			text-decoration: none;
+			display: inline-flex;
+			align-items: center;
+			gap: 5px;
+			font-size: 14px;
+		}
+		.project-links .btn:hover {
+			background: #e68200;
+			transform: translateY(-2px);
+		}
+		.project-links .btn i {
+			font-size: 14px;
+		}
+	</style>
 
 	</body>
 </html>
