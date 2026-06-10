@@ -1504,7 +1504,7 @@ img[src*="udemy-logo"] {
 }
 
 .typewriter::before {
-    content: "Data Engineer | Data Analytics & Engineering";
+    content: "Data Engineer @ Meta | AI & Analytics";
 }
 
 .typewriter::after {
